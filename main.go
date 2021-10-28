@@ -14,4 +14,6 @@ func main() {
 
 		fmt.Println("Bytes written:", n)
 	})
+
+	_ = http.ListenAndServe(":8080", nil)
 }
